@@ -52,6 +52,7 @@ You can see the censored novels [here](https://github.com/booyaa/bannedbookscens
 
 # Change log
 
+## 0.1.1 - fixed regex
 ## 0.1.0 - initial release
 
 Copyright 2016 Mark Sta Ana.
