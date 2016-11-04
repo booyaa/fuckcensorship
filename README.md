@@ -46,7 +46,9 @@ I will create a separate repo for all the censored works.
 - `./fuckcensorship.sh`
 - Your censored material will be in the folder clled `OUT`.
 
-To follow...
+# Output
+
+You can see the censored novels [here](https://github.com/booyaa/bannedbookscensored).
 
 # Change log
 
