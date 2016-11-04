@@ -40,7 +40,7 @@ fi
 for book in $FOLDER_IN/*.txt; do
     echo "Processing $book..."
     FILE_OUT=$FOLDER_OUT/$(basename "$book" .txt).censored.txt
-    $SED_EXEC  's/\w/\xE2\x96\x88/g' < "$book" > "$FILE_OUT"
+    $SED_EXEC  's/\S/\xE2\x96\x88/g' < "$book" > "$FILE_OUT"
 done
 
 echo "Done! I hope you're proud of yourself!"
