@@ -9,7 +9,31 @@ discusses are available from Project Gutenberg.
 My code censors them.
 
 ```
+INTRODUCTION
 
+Scepticism is as much the result of knowledge, as knowledge is of
+scepticism. To be content with what we at present know, is, for the
+most part, to shut our ears against conviction; since, from the very
+gradual character of our education, we must continually forget, and
+emancipate ourselves from, knowledge previously acquired; we must set
+aside old notions and embrace fresh ones; and, as we learn, we must
+be daily unlearning something which it has cost us no small labour
+and anxiety to acquire.
+```
+
+becomes...
+
+```
+████████████
+
+██████████ ██ ██ ████ ███ ██████ ██ █████████, ██ █████████ ██ ██
+██████████. ██ ██ ███████ ████ ████ ██ ██ ███████ ████, ██, ███ ███
+████ ████, ██ ████ ███ ████ ███████ ██████████; █████, ████ ███ ████
+███████ █████████ ██ ███ █████████, ██ ████ ███████████ ██████, ███
+██████████ █████████ ████, █████████ ██████████ ████████; ██ ████ ███
+█████ ███ ███████ ███ ███████ █████ ████; ███, ██ ██ █████, ██ ████
+██ █████ ██████████ █████████ █████ ██ ███ ████ ██ ██ █████ ██████
+███ ███████ ██ ███████.
 ```
 
 I will create a separate repo for all the censored works.
