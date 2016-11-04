@@ -4,7 +4,7 @@ set -o nounset
 set -o errexit
 
 GNU_SED=/usr/gnu/bin/sed
-MAC_PERL="/usr/bin/perl -pe"
+MAC_PERL=/usr/bin/perl
 SED_EXEC=sed
 
 FOLDER_IN=./IN
@@ -25,7 +25,7 @@ if [ "$(uname)" == "Darwin" ]; then
         echo "Couldn't find perl!"
         exit 1
     fi
-    SED_EXEC=$MAC_PERL
+    SED_EXEC="$MAC_PERL -pe"
 fi
 
 if [ ! -d $FOLDER_IN ]; then
