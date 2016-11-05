@@ -10,7 +10,7 @@ SED_EXEC=sed
 FOLDER_IN=./IN
 FOLDER_OUT=./OUT
 
-
+# OS handling borrowed from http://thegreyblog.blogspot.co.uk/2010/09/shell-script-to-find-and-remove-bom.html
 if [ "$(uname)" == "SunOS" ] ; then
     if [ ! -x $GNU_SED ] ; then
         echo "Couldn't find GNU sed!"
@@ -40,6 +40,7 @@ fi
 for book in $FOLDER_IN/*.txt; do
     echo "Processing $book..."
     FILE_OUT=$FOLDER_OUT/$(basename "$book" .txt).censored.txt
+    # https://www.npmjs.com/package/redactkit for introducing me to unicode FULL BLOCK character
     $SED_EXEC  's/\S/\xE2\x96\x88/g' < "$book" > "$FILE_OUT"
 done
 

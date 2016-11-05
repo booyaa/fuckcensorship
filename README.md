@@ -55,6 +55,11 @@ You can see the censored novels [here](https://github.com/booyaa/bannedbookscens
 ## 0.1.1 - fixed regex
 ## 0.1.0 - initial release
 
+# Props
+
+- lou - for suggesting I censor books on the banned list.
+- Project Gutenberg for the books and the banned list.
+
 Copyright 2016 Mark Sta Ana.
 
 Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
